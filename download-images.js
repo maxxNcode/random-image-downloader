@@ -1,3 +1,10 @@
+/*
+HOW TO USE:
+node download-images.js [count]
+
+   ex. node download-images.js 20
+*/
+
 const https = require('https');
 const fs = require('fs');
 const path = require('path');
